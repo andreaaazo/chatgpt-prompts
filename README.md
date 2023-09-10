@@ -6,8 +6,8 @@ Welcome to my ChatGPT prompt repository! This repository contains a collection o
 
 - [🧠 ChatGPT Prompts](#-chatgpt-prompts)
   - [Table of Contents](#table-of-contents)
-  - [📋 Introduction](#-introduction)
-  - [🚀 Usage](#-usage)
+  - [Introduction](#introduction)
+  - [Usage](#usage)
 - [📄 Prompts](#-prompts)
   - [Act as AI Image Prompt Engineer](#act-as-ai-image-prompt-engineer)
   - [Act as a Dart Expert](#act-as-a-dart-expert)
@@ -16,11 +16,11 @@ Welcome to my ChatGPT prompt repository! This repository contains a collection o
   - [Act as a UI/UX Documentation Expert](#act-as-a-uiux-documentation-expert)
   - [Act as a UX User Personas Generatos](#act-as-a-ux-user-personas-generatos)
 
-## 📋 Introduction
+## Introduction
 
 This repository is a curated list of prompts designed for ChatGPT. It's intended for my personal use, but you're welcome to explore and use these prompts for your own projects. Each prompt is carefully crafted to elicit specific responses from ChatGPT, making it easier to interact with the model effectively.
 
-## 🚀 Usage
+## Usage
 
 Once you have access to the ChatGPT model, you can use the prompts in this repository as a reference for your interactions. Simply copy and paste the prompts into your code, and modify them as needed for your specific use case.
 
