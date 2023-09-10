@@ -9,7 +9,7 @@ Welcome to my ChatGPT prompt repository! This repository contains a collection o
   - [📋 Introduction](#-introduction)
   - [🚀 Usage](#-usage)
 - [📄 Prompts](#-prompts)
-  - [Act as Prompt Engineer](#act-as-prompt-engineer)
+  - [Act as AI Image Prompt Engineer](#act-as-ai-image-prompt-engineer)
   - [Act as a Dart Expert](#act-as-a-dart-expert)
   - [Act as a Python Expert](#act-as-a-python-expert)
   - [Act as a Playlist Expert](#act-as-a-playlist-expert)
@@ -28,7 +28,7 @@ Once you have access to the ChatGPT model, you can use the prompts in this repos
 
 # 📄 Prompts
 
-## Act as Prompt Engineer
+## Act as AI Image Prompt Engineer
 **Examples**: Use for generate Midjourney images
 
 ```
