@@ -1,34 +1,34 @@
-# ChatGPT Prompts
+# 🧠 ChatGPT Prompts
 
 Welcome to my ChatGPT prompt repository! This repository contains a collection of prompts I use with ChatGPT. Feel free to explore and use them for your own projects.
 
 ## Table of Contents
 
-- [ChatGPT Prompts](#chatgpt-prompts)
+- [🧠 ChatGPT Prompts](#-chatgpt-prompts)
   - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Usage](#usage)
-  - [Prompts](#prompts)
-    - [Act as Prompt Engineer](#act-as-prompt-engineer)
-    - [Act as a Dart Expert](#act-as-a-dart-expert)
-    - [Act as a Python Expert](#act-as-a-python-expert)
-    - [Act as a Playlist Expert](#act-as-a-playlist-expert)
-    - [Act as a UI/UX Documentation Expert](#act-as-a-uiux-documentation-expert)
-    - [Act as a UX User Personas Generatos](#act-as-a-ux-user-personas-generatos)
+  - [📋 Introduction](#-introduction)
+  - [🚀 Usage](#-usage)
+- [📄 Prompts](#-prompts)
+  - [Act as Prompt Engineer](#act-as-prompt-engineer)
+  - [Act as a Dart Expert](#act-as-a-dart-expert)
+  - [Act as a Python Expert](#act-as-a-python-expert)
+  - [Act as a Playlist Expert](#act-as-a-playlist-expert)
+  - [Act as a UI/UX Documentation Expert](#act-as-a-uiux-documentation-expert)
+  - [Act as a UX User Personas Generatos](#act-as-a-ux-user-personas-generatos)
 
-## Introduction
+## 📋 Introduction
 
 This repository is a curated list of prompts designed for ChatGPT. It's intended for my personal use, but you're welcome to explore and use these prompts for your own projects. Each prompt is carefully crafted to elicit specific responses from ChatGPT, making it easier to interact with the model effectively.
 
-## Usage
+## 🚀 Usage
 
 Once you have access to the ChatGPT model, you can use the prompts in this repository as a reference for your interactions. Simply copy and paste the prompts into your code, and modify them as needed for your specific use case.
 
 ---
 
-## Prompts
+# 📄 Prompts
 
-### Act as Prompt Engineer
+## Act as Prompt Engineer
 **Examples**: Use for generate Midjourney images
 
 ```
@@ -49,7 +49,7 @@ Example prompt:
 Portrait of a Celtic Jedi Sentinel with wet Shamrock Armor, green lightsaber, by Aleksi Briclot, shiny wet dramatic lighting
 ```
 
-### Act as a Dart Expert
+## Act as a Dart Expert
 **Examples**: Dart code refactoring
 **Reference**: Official Dart Documentation
 ```
@@ -68,7 +68,7 @@ You are an expert of Dart since you are born. Your main job is to review the fol
 /// there is already an option using abbreviation [abbr]. Returns the new flag.
 ```
 
-### Act as a Python Expert
+## Act as a Python Expert
 **Examples**: Python code refactoring
 **Reference**: Official Python Documentation
 ```
@@ -83,7 +83,7 @@ You are an expert of Python since you are born. Your main job is to review the f
     """ 
 ```
 
-### Act as a Playlist Expert
+## Act as a Playlist Expert
 **Examples**: Playlist name, description and feelings generator.
 ```
 I want you to act like a song recommender and playlist expert. You will provide a playlist name and description for the playlist. I will give you the song names and you will provide 3 different names for the playlist with the given song names. The names must be really short, fancy, and must express the playlist feelings. You must provide the playlist name, the playlist description, and the feelings that the playlist gives (ex. aggressive, chill, funny, sad, ecc....).
@@ -95,7 +95,7 @@ Playlist songs:
 [Paste songs here]
 ```
 
-### Act as a UI/UX Documentation Expert
+## Act as a UI/UX Documentation Expert
 **Examples**: Refactores Design documentation text
 ```
 I want you to act as a Ui/UX Designer that is an expert in creating Design Documentation and Case Studies. I will provide some text that is the thinking process behind a design choice, and you will refactor it, make it more comprehensive, readable, and easy to understand. Edit/Remove/Add text if needed. Format it in the markdown language.
@@ -104,7 +104,7 @@ Prompt:
 [Paste text here]
 ```
 
-### Act as a UX User Personas Generatos
+## Act as a UX User Personas Generatos
 **Examples**: Generates user personas for case design study
 ```
 I want you to act as a professional UX designer with a lot of years of experience. You are given a prompt for an application, and you need to generate user personas as comprehensively as possible. The first user personas should be easy, while the last ones should be very challenging. Generate up to 3 user personas that can assist in the app design study and user flow creation. 
