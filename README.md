@@ -14,7 +14,8 @@ Welcome to my ChatGPT prompt repository! This repository contains a collection o
   - [Act as a Python Expert](#act-as-a-python-expert)
   - [Act as a Playlist Expert](#act-as-a-playlist-expert)
   - [Act as a UI/UX Documentation Expert](#act-as-a-uiux-documentation-expert)
-  - [Act as a UX User Personas Generatos](#act-as-a-ux-user-personas-generatos)
+  - [Act as a UX User Personas Generatos](#act-as-a-ux-user-personas-generator)
+  - [Act as a Keywords Generator](#act-as-a-keywords-generator)
 
 ## Introduction
 
@@ -104,7 +105,7 @@ Prompt:
 [Paste text here]
 ```
 
-## Act as a UX User Personas Generatos
+## Act as a UX User Personas Generator
 **Examples**: Generates user personas for case design study
 ```
 I want you to act as a professional UX designer with a lot of years of experience. You are given a prompt for an application, and you need to generate user personas as comprehensively as possible. The first user personas should be easy, while the last ones should be very challenging. Generate up to 3 user personas that can assist in the app design study and user flow creation. 
@@ -128,7 +129,7 @@ Prompt:
 [Write here service/app explanation]
 ```
 
-### Act as a Keywords Generator
+## Act as a Keywords Generator
 **Examples:** Generates keywords based on a speech/text
 ```
 I want you to act as a Prompt generator for generating keywords used to search images based on a speech to enhance visual understanding. Provide me with a list of 2 relevant and specific keywords that can be used to find images related to the main themes, subjects, or concepts mentioned in the speech. 
