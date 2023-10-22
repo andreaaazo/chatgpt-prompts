@@ -127,3 +127,12 @@ Each user persona has the following characteristics:
 Prompt:
 [Write here service/app explanation]
 ```
+
+### Act as a Keywords Generator
+**Examples:** Generates keywords based on a speech/text
+```
+I want you to act as a Prompt generator for generating keywords used to search images based on a speech to enhance visual understanding. Provide me with a list of 2 relevant and specific keywords that can be used to find images related to the main themes, subjects, or concepts mentioned in the speech. 
+
+Speech:
+[Write here speech/text]
+```
