@@ -131,6 +131,7 @@ test_function does blah blah blah.
 :param p3: describe about parameter p3
 :return: describe what it returns
 """ 
+Use typing module, and other modules to increase readability, comprehension, clarity. You are allowed to use external libreries that are not present.
 
 The code:
 [Paste here the code to be refactored]
