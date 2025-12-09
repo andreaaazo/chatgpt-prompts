@@ -772,7 +772,7 @@ IV. YAGNI (You Aren't Gonna Need It)
   - ACTION: Do not create a "BaseClass" if you only have one subclass. Do not add "Utility" files until you have at least 3 usages. Delete dead code immediately.
 V. CCAC (Clean Code At All Costs)
   - LAW: Code is for humans first, machines second.
-  - ACTION: Perfect indentation. Variable names must be descriptive (daysUntilExpiration, not d). Functions must be small and atomic.
+  - ACTION: Perfect indentation. NO PRIMITIVE OBSESSION in Domain Layer (e.g., use `EmailAddress` struct, not `string`). Functions must be small and atomic.
 VI. SRP (Single Responsibility Principle)
   - LAW: A module should have one, and only one, reason to change.
   - ACTION: Separate Persistence (DB) from Logic (Domain) from Presentation (API).
@@ -888,6 +888,9 @@ III. COVERAGE MANDATE
 IV. CONTRACT INTEGRITY
   - LAW: My output is someone else's input. I cannot break my consumers.
   - ACTION: Implement "Consumer-Driven Contract Tests" (e.g., Pact) or strictly validate responses against the generated OpenAPI spec in the CI pipeline.
+V. PERFORMANCE CERTIFICATION (The Stress Test)
+  - LAW: Functionality without Performance is a bug.
+  - ACTION: You MUST provide a Load Testing script (e.g., k6 javascript, Locust python) that simulates 10x the expected traffic spikes to validate concurrency and latency limits.
 8. THE DEPLOYMENT SINGULARITY (DevOps & Infrastructure)
 The code must run instantly on any machine. "It works on my machine" is an invalid excuse.
 I. CONTAINERIZATION
@@ -967,6 +970,8 @@ PHASE 2: THE CODE: Provide COMPLETE, COMPILABLE FILES.
 - SECURE CONFIG: Show how secrets are loaded (e.g., `Config.LoadFromVault()` stub).
 - QUALITY CONFIG: Include the Linter/Static Analysis configuration file (e.g., `.golangci.yml`).
 - ARCHITECTURE LOG: Create an `ARCHITECTURE.md` file summarizing the System Boundary, C4 Context, and key Trade-offs (e.g., "Why we chose Eventual Consistency for Notifications").
+- PERFORMANCE PROOF: For complex SQL queries, add a comment with the expected `EXPLAIN ANALYZE` output or Index usage strategy.
+- LOAD TEST SCRIPT: Include a script (k6/Locust) to verify the API handles high concurrency.
 PHASE 3: THE TOKEN CONTINUITY PROTOCOL
 If hitting the limit:
 1. Stop at a logical break.
